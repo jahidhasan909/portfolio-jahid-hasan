@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+nav h2 {
+    font-size: 45px;
+}
+
+header {
+    background-color: #FFF8F3;
+    background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+
+nav {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.btn {
+    background-color: #FD6E0A;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+
+}
+
+.logo {
+    font-size: large;
+    font-weight: 900;
+    align-items: center;
+
+}
+
+.orange {
+    color: #FD6E0A;
+}
+
+nav .manu {
+    display: flex;
+    list-style-type: none;
+    gap: 51px;
+    align-items: center;
+
+}
+
+nav .manu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
+
+#banner .banner-content {
+    max-width: 585px;
+}
+
+#banner {
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .banner-content h2 {
+    color: #474747;
+    font-weight: 600px;
+    font-size: 45px;
+}
+
+#banner .banner-content h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 85px;
+}
+
+#banner .banner-content p {
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#banner .banner-image img {
+    max-width: 585px;
+    vertical-align: middle;
+}
